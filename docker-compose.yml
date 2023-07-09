@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myservice:
+    build: .
+    image: tesis
+    container_name: tesis
+    volumes:
+      - ./ibex-lib-abst-iterative:/app
